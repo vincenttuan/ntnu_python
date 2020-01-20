@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7532bb14-f764-41d6-89a9-dd61c8603b60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson1/BMI_Input.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson1/BMI.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/BMI.py" afterDir="false" />
     </list>
@@ -46,7 +47,7 @@
       <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BMI">
+  <component name="RunManager" selected="Python.BMI_Input">
     <configuration name="BMI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +61,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/BMI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BMI_Input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ntnu_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/BMI_Input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BMI_Input" />
         <item itemvalue="Python.BMI" />
         <item itemvalue="Python.Hello (1)" />
         <item itemvalue="Python.Hello" />
@@ -211,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579499239373</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Python">
+      <created>1579499588190</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579499588190</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,10 +249,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579499233237">
+    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579499581516">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579499233237" />
+    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579499581516" />
     <state x="687" y="426" key="Github.ShareDialog" timestamp="1579494355688">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -231,25 +261,25 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1633" height="248" key="GridCell.Tab.0.bottom" timestamp="1579499553374">
+    <state width="1633" height="414" key="GridCell.Tab.0.bottom" timestamp="1579500102082">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="248" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579499553374" />
-    <state width="1633" height="248" key="GridCell.Tab.0.center" timestamp="1579499553374">
+    <state width="1633" height="414" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579500102082" />
+    <state width="1633" height="414" key="GridCell.Tab.0.center" timestamp="1579500102082">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="248" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579499553374" />
-    <state width="1633" height="248" key="GridCell.Tab.0.left" timestamp="1579499553374">
+    <state width="1633" height="414" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579500102082" />
+    <state width="1633" height="414" key="GridCell.Tab.0.left" timestamp="1579500102082">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="248" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579499553374" />
-    <state width="1633" height="248" key="GridCell.Tab.0.right" timestamp="1579499553374">
+    <state width="1633" height="414" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579500102082" />
+    <state width="1633" height="414" key="GridCell.Tab.0.right" timestamp="1579500102082">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="248" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579499553374" />
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579499241287">
+    <state width="1633" height="414" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579500102082" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579499589580">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579499241287" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579499589580" />
   </component>
 </project>

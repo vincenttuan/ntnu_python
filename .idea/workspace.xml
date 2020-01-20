@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579498358697</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Python">
+      <created>1579498726665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579498726665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,25 +217,25 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1633" height="326" key="GridCell.Tab.0.bottom" timestamp="1579498696476">
+    <state width="1633" height="326" key="GridCell.Tab.0.bottom" timestamp="1579499008994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="326" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579498696476" />
-    <state width="1633" height="326" key="GridCell.Tab.0.center" timestamp="1579498696476">
+    <state width="1633" height="326" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579499008994" />
+    <state width="1633" height="326" key="GridCell.Tab.0.center" timestamp="1579499008994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="326" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579498696476" />
-    <state width="1633" height="326" key="GridCell.Tab.0.left" timestamp="1579498696476">
+    <state width="1633" height="326" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579499008994" />
+    <state width="1633" height="326" key="GridCell.Tab.0.left" timestamp="1579499008994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="326" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579498696476" />
-    <state width="1633" height="326" key="GridCell.Tab.0.right" timestamp="1579498696476">
+    <state width="1633" height="326" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579499008994" />
+    <state width="1633" height="326" key="GridCell.Tab.0.right" timestamp="1579499008994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="326" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579498696476" />
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579498361831">
+    <state width="1633" height="326" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579499008994" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579498754586">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579498361831" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579498754586" />
   </component>
 </project>

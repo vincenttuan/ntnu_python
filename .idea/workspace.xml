@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7532bb14-f764-41d6-89a9-dd61c8603b60" name="Default Changelist" comment="">
+    <list default="true" id="7532bb14-f764-41d6-89a9-dd61c8603b60" name="Default Changelist" comment="Python">
+      <change afterPath="$PROJECT_DIR$/lesson2/Word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ntnu_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ntnu_python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/Hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/Hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson1" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -50,22 +52,19 @@
       <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Hello (1)">
-    <configuration name="ChickenRabbit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Word">
+    <configuration name="BMI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/ChickenRabbit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/BMI.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -114,27 +113,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lotto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ntnu_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/Lotto.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Lotto2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,13 +134,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ntnu_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/Word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Word" />
+        <item itemvalue="Python.BMI" />
         <item itemvalue="Python.Hello (1)" />
         <item itemvalue="Python.Fib" />
         <item itemvalue="Python.Lotto2" />
-        <item itemvalue="Python.Lotto" />
-        <item itemvalue="Python.ChickenRabbit" />
       </list>
     </recent_temporary>
   </component>
@@ -344,10 +343,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579506558592">
+    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579655284367">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579506558592" />
+    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579655284367" />
     <state x="687" y="426" key="Github.ShareDialog" timestamp="1579494355688">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -356,25 +355,33 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1633" height="299" key="GridCell.Tab.0.bottom" timestamp="1579507348036">
+    <state width="1658" height="410" key="GridCell.Tab.0.bottom" timestamp="1579656153537">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="299" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579507348036" />
-    <state width="1633" height="299" key="GridCell.Tab.0.center" timestamp="1579507348036">
+    <state width="1658" height="410" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579656153537" />
+    <state width="1658" height="410" key="GridCell.Tab.0.center" timestamp="1579656153537">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="299" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579507348036" />
-    <state width="1633" height="299" key="GridCell.Tab.0.left" timestamp="1579507348036">
+    <state width="1658" height="410" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579656153537" />
+    <state width="1658" height="410" key="GridCell.Tab.0.left" timestamp="1579656153537">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="299" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579507348036" />
-    <state width="1633" height="299" key="GridCell.Tab.0.right" timestamp="1579507348036">
+    <state width="1658" height="410" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579656153537" />
+    <state width="1658" height="410" key="GridCell.Tab.0.right" timestamp="1579656153537">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1633" height="299" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579507348036" />
+    <state width="1658" height="410" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579656153537" />
+    <state x="358" y="123" key="SettingsEditor" timestamp="1579655038848">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="358" y="123" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1579655038848" />
     <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579506566563">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579506566563" />
+    <state x="553" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1579654514848">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="553" y="337" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579654514848" />
   </component>
 </project>

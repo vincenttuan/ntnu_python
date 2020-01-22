@@ -36,3 +36,7 @@ while True:
 
     print('balance: %d' % balance)
 
+    code = input('想繼續玩請按[enter], 離開請按 [q]')
+    if code == 'q':
+        break
+

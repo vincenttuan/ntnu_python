@@ -13,3 +13,6 @@ print('---------------------------------------------')
 for key in employees:
     m = employees[key][2]['m']
     print('%s 的資料 %s' % (key, employees[key][0] * m))
+print('---------------------------------------------')
+# max 是誰 ?
+# min 是誰 ?

@@ -11,3 +11,4 @@ print(str[1:4])
 id = input('請輸入身分證: ')
 sex = id[1]
 print('男' if sex == '1' else '女')
+

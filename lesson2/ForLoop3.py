@@ -15,4 +15,19 @@ for key in employees:
     print('%s 的資料 %s' % (key, employees[key][0] * m))
 print('---------------------------------------------')
 # max 是誰 ?
-# min 是誰 ?
+maxValue = 0
+for i in [10, 30, 20]:
+    if i > maxValue:
+        maxValue = i
+print('maxValue: %d' % maxValue)
+print('---------------------------------------------')
+# max 是誰 ?
+maxName, maxSalary = '', 0
+for key in employees:
+    m = employees[key][2]['m']
+    salary = employees[key][0] * m
+    if salary > maxSalary:
+        maxName = key
+        maxSalary = salary
+
+print('maxName: %s maxSalary: %d' % (maxName, maxSalary))

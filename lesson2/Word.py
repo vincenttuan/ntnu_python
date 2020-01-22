@@ -5,3 +5,5 @@ print(word.count(' '))
 print(word.upper())
 print(word.isalpha())
 
+str = 'Hello Python'
+print(str[1:4])

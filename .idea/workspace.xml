@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7532bb14-f764-41d6-89a9-dd61c8603b60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2/DicDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/JsonDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/JsonDemo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DicDemo">
+  <component name="RunManager" selected="Python.JsonDemo">
     <configuration name="DicDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ListDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/ListDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/JsonDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ListDemo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SplitDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/ListDemo2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/SplitDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JsonDemo" />
+        <item itemvalue="Python.SplitDemo" />
         <item itemvalue="Python.DicDemo" />
         <item itemvalue="Python.TupleDemo" />
         <item itemvalue="Python.DiceGame" />
-        <item itemvalue="Python.ListDemo2" />
-        <item itemvalue="Python.ListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +485,35 @@
       <option name="project" value="LOCAL" />
       <updated>1579674610975</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Python">
+      <created>1579675451313</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1579675451313</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Python">
+      <created>1579675605959</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1579675605959</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Python">
+      <created>1579676004609</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1579676004609</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Python">
+      <created>1579677150752</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1579677150752</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -493,10 +521,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579674598494">
+    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579677144777">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579674598494" />
+    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579677144777" />
     <state x="687" y="426" key="Github.ShareDialog" timestamp="1579494355688">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -505,30 +533,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1658" height="329" key="GridCell.Tab.0.bottom" timestamp="1579675412273">
+    <state width="1658" height="329" key="GridCell.Tab.0.bottom" timestamp="1579677516761">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="329" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579675412273" />
-    <state width="1658" height="329" key="GridCell.Tab.0.center" timestamp="1579675412273">
+    <state width="1658" height="329" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579677516761" />
+    <state width="1658" height="329" key="GridCell.Tab.0.center" timestamp="1579677516761">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="329" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579675412273" />
-    <state width="1658" height="329" key="GridCell.Tab.0.left" timestamp="1579675412273">
+    <state width="1658" height="329" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579677516761" />
+    <state width="1658" height="329" key="GridCell.Tab.0.left" timestamp="1579677516761">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="329" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579675412273" />
-    <state width="1658" height="329" key="GridCell.Tab.0.right" timestamp="1579675412273">
+    <state width="1658" height="329" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579677516761" />
+    <state width="1658" height="329" key="GridCell.Tab.0.right" timestamp="1579677516761">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="329" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579675412273" />
+    <state width="1658" height="329" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579677516761" />
     <state x="358" y="123" key="SettingsEditor" timestamp="1579660302722">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="358" y="123" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1579660302722" />
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579674612550">
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579676006122">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579674612550" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579676006122" />
     <state x="553" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1579654514848">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

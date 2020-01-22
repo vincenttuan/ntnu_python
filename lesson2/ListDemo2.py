@@ -1,4 +1,5 @@
 import random
+#import os
 dice = [1, 2, 3, 4, 5, 6]
 
 def getDice():
@@ -14,5 +15,5 @@ def play(n):
 
 score = play(3)
 print('score: %d' % score)
-
+#os.system('cls')
 

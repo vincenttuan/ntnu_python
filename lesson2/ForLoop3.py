@@ -10,3 +10,6 @@ for key in employees:
     if(employees[key][1] == 2) :
         print('%s 的資料 %s' % (key, employees[key]))
 print('---------------------------------------------')
+for key in employees:
+    m = employees[key][2]['m']
+    print('%s 的資料 %s' % (key, employees[key][0] * m))

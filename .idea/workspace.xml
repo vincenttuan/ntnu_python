@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7532bb14-f764-41d6-89a9-dd61c8603b60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2/ForLoop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/ForLoop2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,15 +44,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson2" />
       <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ForLoop">
+  <component name="RunManager" selected="Python.ForLoop2">
     <configuration name="ForLoop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,6 +66,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/ForLoop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ForLoop2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ntnu_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/ForLoop2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,27 +137,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="WhileLoop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ntnu_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/WhileLoop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="WhileLoop2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ForLoop2" />
         <item itemvalue="Python.ForLoop" />
         <item itemvalue="Python.GuessNumber2" />
         <item itemvalue="Python.GuessNumber" />
         <item itemvalue="Python.WhileLoop2" />
-        <item itemvalue="Python.WhileLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579661833714</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Python">
+      <created>1579663346829</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579663346829</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -416,10 +423,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579661828021">
+    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579663339442">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579661828021" />
+    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579663339442" />
     <state x="687" y="426" key="Github.ShareDialog" timestamp="1579494355688">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -428,30 +435,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1362" height="494" key="GridCell.Tab.0.bottom" timestamp="1579663260787">
+    <state width="1658" height="345" key="GridCell.Tab.0.bottom" timestamp="1579664131398">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1362" height="494" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579663260787" />
-    <state width="1362" height="494" key="GridCell.Tab.0.center" timestamp="1579663260787">
+    <state width="1658" height="345" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579664131398" />
+    <state width="1658" height="345" key="GridCell.Tab.0.center" timestamp="1579664131397">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1362" height="494" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579663260787" />
-    <state width="1362" height="494" key="GridCell.Tab.0.left" timestamp="1579663260787">
+    <state width="1658" height="345" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579664131397" />
+    <state width="1658" height="345" key="GridCell.Tab.0.left" timestamp="1579664131397">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1362" height="494" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579663260787" />
-    <state width="1362" height="494" key="GridCell.Tab.0.right" timestamp="1579663260787">
+    <state width="1658" height="345" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579664131397" />
+    <state width="1658" height="345" key="GridCell.Tab.0.right" timestamp="1579664131397">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1362" height="494" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579663260787" />
+    <state width="1658" height="345" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579664131397" />
     <state x="358" y="123" key="SettingsEditor" timestamp="1579660302722">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="358" y="123" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1579660302722" />
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579661835929">
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579663348484">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579661835929" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579663348484" />
     <state x="553" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1579654514848">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

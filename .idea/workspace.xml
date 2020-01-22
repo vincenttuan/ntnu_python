@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7532bb14-f764-41d6-89a9-dd61c8603b60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2/GuessNumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/GuessNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/GuessNumber.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WhileLoop2">
+  <component name="RunManager" selected="Python.GuessNumber">
     <configuration name="BMI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Hello (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="GuessNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/Hello.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/GuessNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GuessNumber" />
         <item itemvalue="Python.WhileLoop2" />
         <item itemvalue="Python.WhileLoop" />
         <item itemvalue="Python.Word" />
         <item itemvalue="Python.BMI" />
-        <item itemvalue="Python.Hello (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579658253235</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Python">
+      <created>1579659521898</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579659521898</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -385,10 +392,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579658246919">
+    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579659515326">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579658246919" />
+    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579659515326" />
     <state x="687" y="426" key="Github.ShareDialog" timestamp="1579494355688">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -397,30 +404,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1658" height="552" key="GridCell.Tab.0.bottom" timestamp="1579658142190">
+    <state width="1658" height="462" key="GridCell.Tab.0.bottom" timestamp="1579660098730">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="552" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579658142190" />
-    <state width="1658" height="552" key="GridCell.Tab.0.center" timestamp="1579658142190">
+    <state width="1658" height="462" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
+    <state width="1658" height="462" key="GridCell.Tab.0.center" timestamp="1579660098730">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="552" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579658142190" />
-    <state width="1658" height="552" key="GridCell.Tab.0.left" timestamp="1579658142190">
+    <state width="1658" height="462" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
+    <state width="1658" height="462" key="GridCell.Tab.0.left" timestamp="1579660098730">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="552" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579658142190" />
-    <state width="1658" height="552" key="GridCell.Tab.0.right" timestamp="1579658142190">
+    <state width="1658" height="462" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
+    <state width="1658" height="462" key="GridCell.Tab.0.right" timestamp="1579660098730">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="552" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579658142190" />
+    <state width="1658" height="462" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
     <state x="358" y="123" key="SettingsEditor" timestamp="1579655038848">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="358" y="123" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1579655038848" />
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579658254560">
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579659524315">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579658254560" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579659524315" />
     <state x="553" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1579654514848">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

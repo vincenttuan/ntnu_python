@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -384,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579659521898</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Python">
+      <created>1579660181869</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1579660181869</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -392,10 +399,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579659515326">
+    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1579660174726">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579659515326" />
+    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579660174726" />
     <state x="687" y="426" key="Github.ShareDialog" timestamp="1579494355688">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -404,30 +411,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1658" height="462" key="GridCell.Tab.0.bottom" timestamp="1579660098730">
+    <state width="1658" height="472" key="GridCell.Tab.0.bottom" timestamp="1579660987626">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="462" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
-    <state width="1658" height="462" key="GridCell.Tab.0.center" timestamp="1579660098730">
+    <state width="1658" height="472" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579660987626" />
+    <state width="1658" height="472" key="GridCell.Tab.0.center" timestamp="1579660987626">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="462" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
-    <state width="1658" height="462" key="GridCell.Tab.0.left" timestamp="1579660098730">
+    <state width="1658" height="472" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579660987626" />
+    <state width="1658" height="472" key="GridCell.Tab.0.left" timestamp="1579660987626">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="462" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
-    <state width="1658" height="462" key="GridCell.Tab.0.right" timestamp="1579660098730">
+    <state width="1658" height="472" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579660987626" />
+    <state width="1658" height="472" key="GridCell.Tab.0.right" timestamp="1579660987626">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="462" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579660098730" />
-    <state x="358" y="123" key="SettingsEditor" timestamp="1579655038848">
+    <state width="1658" height="472" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579660987626" />
+    <state x="358" y="123" key="SettingsEditor" timestamp="1579660302722">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="358" y="123" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1579655038848" />
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579659524315">
+    <state x="358" y="123" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1579660302722" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1579660184100">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579659524315" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579660184100" />
     <state x="553" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1579654514848">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

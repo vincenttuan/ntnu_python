@@ -8,11 +8,10 @@ if resp.status_code == 200:
     jo = json.loads(resp.text)
     retVal = jo['retVal']
     for i in range(1, 405):
-        n = '%04d' % i
+        no = '%04d' % i
         try:
-            val = retVal[n]
+            val = retVal[no]
             print(val['sna'], val)
-
         except:
             pass
 

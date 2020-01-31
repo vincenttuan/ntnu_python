@@ -1,9 +1,20 @@
 import requests
 import json
 
-url = 'https://data.ntpc.gov.tw/od/data/api/54DDDC93-589C-4858-9C95-18B2046CC1FC?$format=json'
+url = 'https://data.ntpc.gov.tw/api/v1/rest/datastore/382000000A-000352-001'
 
 resp = requests.get(url)
 if resp.status_code == 200:
-    list = json.loads(resp.text)
-    print(list)
+    jo = json.loads(resp.text)
+    #print(jo)
+    total = jo['result']['total']
+    print('total: %d' % total)
+    records = jo['result']['records']
+    for record in records:
+        # 請印出 sbi >= 30 and bemp >= 30 的站台
+        sna = record['sna']
+        print(sna)
+
+
+
+

@@ -19,6 +19,7 @@ for car in x['cars']:
 
 print(sum)
 
-y = json.dumps(x)
+y = json.dumps(x, indent=2)
 print(type(y))
+print(y)
 

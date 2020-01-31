@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7532bb14-f764-41d6-89a9-dd61c8603b60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson3/JsonDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/YoubikeJson.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/JsonDemo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/JsonDemo3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +41,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson3" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson2" />
-      <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson3" />
+      <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson2" />
+      <recent name="C:\Users\CLASS\PycharmProjects\ntnu_python\lesson1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.JsonDemo (1)">
+  <component name="RunManager" selected="Python.YoubikeJson">
     <configuration name="BMI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,48 +68,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/BMI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DicDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ntnu_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/DicDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ForLoop3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ntnu_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/ForLoop3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="JsonDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonDemo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ntnu_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +105,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/JsonDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/JsonDemo2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JsonDemo3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ntnu_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/JsonDemo3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="YoubikeJson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ntnu_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/YoubikeJson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.YoubikeJson" />
+        <item itemvalue="Python.JsonDemo3" />
+        <item itemvalue="Python.JsonDemo2" />
         <item itemvalue="Python.JsonDemo (1)" />
         <item itemvalue="Python.BMI" />
-        <item itemvalue="Python.DicDemo" />
-        <item itemvalue="Python.ForLoop3" />
-        <item itemvalue="Python.JsonDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -190,34 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579494160041</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Python">
-      <created>1579494614019</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1579494614019</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Python">
-      <created>1579494664882</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1579494664882</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Python">
-      <created>1579496870636</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1579496870636</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Python">
-      <created>1579497831868</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1579497831868</updated>
     </task>
     <task id="LOCAL-00006" summary="Python">
       <created>1579498302399</created>
@@ -534,7 +508,35 @@
       <option name="project" value="LOCAL" />
       <updated>1580431486305</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Python">
+      <created>1580433382954</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1580433382954</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Python">
+      <created>1580433974830</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1580433974830</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Python">
+      <created>1580434831757</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1580434831757</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Python">
+      <created>1580435317429</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1580435317430</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -542,10 +544,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1580431483373">
+    <state x="479" y="114" key="CommitChangelistDialog2" timestamp="1580435316459">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1580431483373" />
+    <state x="479" y="114" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1580435316459" />
     <state x="687" y="426" key="Github.ShareDialog" timestamp="1579494355688">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -554,30 +556,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="223" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579494495326" />
-    <state width="1658" height="458" key="GridCell.Tab.0.bottom" timestamp="1580433358768">
+    <state width="1658" height="351" key="GridCell.Tab.0.bottom" timestamp="1580436012330">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="458" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1580433358768" />
-    <state width="1658" height="458" key="GridCell.Tab.0.center" timestamp="1580433358768">
+    <state width="1658" height="351" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1580436012330" />
+    <state width="1658" height="351" key="GridCell.Tab.0.center" timestamp="1580436012330">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="458" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1580433358768" />
-    <state width="1658" height="458" key="GridCell.Tab.0.left" timestamp="1580433358768">
+    <state width="1658" height="351" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1580436012330" />
+    <state width="1658" height="351" key="GridCell.Tab.0.left" timestamp="1580436012329">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="458" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1580433358768" />
-    <state width="1658" height="458" key="GridCell.Tab.0.right" timestamp="1580433358768">
+    <state width="1658" height="351" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1580436012329" />
+    <state width="1658" height="351" key="GridCell.Tab.0.right" timestamp="1580436012330">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="458" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1580433358768" />
+    <state width="1658" height="351" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1580436012330" />
     <state x="358" y="123" key="SettingsEditor" timestamp="1579660302722">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="358" y="123" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1579660302722" />
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1580431490003">
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2" timestamp="1580435319068">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1580431490003" />
+    <state x="414" y="267" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1580435319068" />
     <state x="553" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1579654514848">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

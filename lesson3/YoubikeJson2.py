@@ -20,7 +20,8 @@ if resp.status_code == 200:
             record = retVal[no]
             #print(record['sna'], record)
             show(30, record)
-        except:
+        except Exception as error:
+            print(error)
             pass
 
 

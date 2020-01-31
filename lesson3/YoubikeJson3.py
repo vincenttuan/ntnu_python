@@ -26,7 +26,8 @@ if resp.status_code == 200:
         try:
             record = retVal[no]
             show_distance(record)
-        except:
+        except Exception as error:
+            print(error)
             pass
 
 

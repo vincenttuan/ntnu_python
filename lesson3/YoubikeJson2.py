@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 def show(n, record):
     sbi = int(record['sbi'])
     bemp = int(record['bemp'])
@@ -8,8 +9,8 @@ def show(n, record):
         sna = record['sna']
         print(sna, sbi, bemp)
 
-url = 'https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json'
 
+url = 'https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json'
 resp = requests.get(url)
 if resp.status_code == 200:
     jo = json.loads(resp.text)

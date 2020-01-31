@@ -35,3 +35,6 @@ for data in soup.table.find_all('tr'):
 
 
 
+
+
+

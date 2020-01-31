@@ -13,7 +13,7 @@ if resp.status_code == 200:
 
     for record in records:
         # 請印出 sbi >= 30 and bemp >= 30 的站台
-        n = 40
+        n = 30
         sbi = int(record['sbi'])
         bemp = int(record['bemp'])
         if sbi >= n and bemp >= n:

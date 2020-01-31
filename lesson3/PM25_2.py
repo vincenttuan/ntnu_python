@@ -27,4 +27,12 @@ print(list_sorted)
 max = max(list, key=lambda dict: dict["p1"])
 print(max)
 
+#f = open("pm25.csv", "a", encoding='UTF-8')
+f = open("pm25.csv", "a")
+f.write("area,p1,p2\n")
+for dict in list:
+    f.write(dict['area'] + "," + dict['p1'] + "," + dict['p2'] + "\n")
+
+
+
 

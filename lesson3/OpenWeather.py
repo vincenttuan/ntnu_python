@@ -7,4 +7,6 @@ resp = requests.get(url)
 if resp.status_code == 200:
     jo = json.loads(resp.text)
     main = jo['main']
-    print(main['temp'], '°C', main['feels_like'], '°C', main['humidity'], '%')
+    print('溫度:', main['temp'], '°C')
+    print('體感:', main['feels_like'], '°C')
+    print('濕度:', main['humidity'], '%')

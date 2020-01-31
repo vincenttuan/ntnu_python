@@ -1,6 +1,13 @@
 import requests
 import json
 
+def show(n, record):
+    sbi = int(record['sbi'])
+    bemp = int(record['bemp'])
+    if sbi >= n and bemp >= n:
+        sna = record['sna']
+        print(sna, sbi, bemp)
+
 url = 'https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json'
 
 resp = requests.get(url)
@@ -10,8 +17,9 @@ if resp.status_code == 200:
     for i in range(1, 405):
         no = '%04d' % i
         try:
-            val = retVal[no]
-            print(val['sna'], val)
+            record = retVal[no]
+            #print(record['sna'], record)
+            show(30, record)
         except:
             pass
 

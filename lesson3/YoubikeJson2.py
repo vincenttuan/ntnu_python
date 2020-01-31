@@ -9,6 +9,7 @@ def show(n, record):
         sna = record['sna']
         print(sna, sbi, bemp)
 
+
 url = 'https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json'
 resp = requests.get(url)
 if resp.status_code == 200:
@@ -23,7 +24,4 @@ if resp.status_code == 200:
         except Exception as error:
             print(error)
             pass
-
-
-
 

@@ -27,4 +27,5 @@ list = []
 for symbol in [2330, 2303, 2317, 3008, 2498] :
     dict = getStock(symbol)
     list.append(dict)
+
 print(list)

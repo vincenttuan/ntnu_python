@@ -10,6 +10,11 @@ html_doc = """
 <a href="http://example.com/lacie" class="sister" id="link2">Lacie</a> and
 <a href="http://example.com/tillie" class="sister" id="link3">Tillie</a>;
 <a href="http://tw.yahoo.com" class="tw" id="yahoo">雅虎</a>;
+<table border="1">
+    <tr><td>鉛筆</td><td>10</td></tr>
+    <tr><td>橡皮</td><td>5</td></tr>
+</table>
+
 and they lived at the bottom of a well.</p>
 
 <p class="story">...</p>
@@ -25,5 +30,9 @@ print(data.text)
 data = soup.find(id="yahoo")
 print(data)
 print(data.text)
+print(data.get('href'))
+print(data.get('class'))
+
+
 
 

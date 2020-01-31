@@ -9,7 +9,6 @@ def show(n, record):
         sna = record['sna']
         print(sna, sbi, bemp)
 
-
 url = 'https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json'
 resp = requests.get(url)
 if resp.status_code == 200:

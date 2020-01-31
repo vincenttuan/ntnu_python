@@ -10,10 +10,15 @@ if resp.status_code == 200:
     total = jo['result']['total']
     print('total: %d' % total)
     records = jo['result']['records']
+
     for record in records:
         # 請印出 sbi >= 30 and bemp >= 30 的站台
-        sna = record['sna']
-        print(sna)
+        n = 40
+        sbi = int(record['sbi'])
+        bemp = int(record['bemp'])
+        if sbi >= n and bemp >= n:
+            sna = record['sna']
+            print(sna, sbi, bemp)
 
 
 

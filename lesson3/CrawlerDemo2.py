@@ -12,9 +12,9 @@ html_doc = """
 <a href="http://tw.yahoo.com" class="tw" id="yahoo">雅虎</a>;
 <table border="1">
     <tr><td>商品</td><td>數量</td><td>價格</td></tr>
-    <tr><td>鉛筆</td><td>10</td><td>12</td></tr>
     <tr><td>橡皮</td><td>5</td><td>20</td></tr>
-    <tr><td>口罩</td><td>200</td><td>8</td></tr>
+    <tr><td>鉛筆</td><td>10</td><td>12</td></tr>
+    <tr><td>口罩</td><td>300</td><td>18</td></tr>
 </table>
 
 and they lived at the bottom of a well.</p>
@@ -23,17 +23,14 @@ and they lived at the bottom of a well.</p>
 """
 
 soup = BeautifulSoup(html_doc, 'html.parser')
-print(soup)
+#print(soup.table.find_all('tr'))
+#print(type(soup.table.find_all('tr')))
+for data in soup.table.find_all('tr'):
+    if data.find('td').text == '口罩':
+        tds = data.find_all('td')
+        print(tds[1].text, tds[2].text, sep='*', end='=')
+        print(int(tds[1].text) * int(tds[2].text))
 
-data = soup.find(id="link3")
-print(data)
-print(data.text)
-
-data = soup.find(id="yahoo")
-print(data)
-print(data.text)
-print(data.get('href'))
-print(data.get('class'))
 
 
 

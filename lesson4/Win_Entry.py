@@ -12,7 +12,9 @@ def set():
 win = tkinter.Tk()
 entry = tkinter.Entry(win, justify=tkinter.CENTER)
 entry.config(font=('Arial', 40))
-entry.insert(0, '0')
+entry.insert(0, "hello")
+entry.insert("end", "world")
+entry.insert(5, ", ")
 entry.pack()
 
 button1 = tkinter.Button(win, text="Get", command=get)

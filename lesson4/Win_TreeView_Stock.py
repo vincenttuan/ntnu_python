@@ -6,6 +6,11 @@ from tkinter import messagebox
 import datetime
 import time
 
+'''
+個股日本益比、殖利率及股價淨值比 (csv)
+https://www.twse.com.tw/exchangeReport/BWIBBU_d?response=csv&date=20200131&selectType=ALL
+
+'''
 # 清空tree
 def tree_clear():
     items = tree.get_children()
@@ -15,6 +20,8 @@ def tree_clear():
 def search():
     tree_clear()
     messagebox.showinfo('查詢作業', '查詢完成')
+    # 重這裡開始寫
+
 
 def quit():
     win.quit()

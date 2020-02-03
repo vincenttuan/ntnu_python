@@ -2,9 +2,6 @@ import tkinter
 from tkinter import messagebox
 
 def calc():
-    h = 0
-    w = 0
-    bmi = 0.0
     try:
         h = float(h_entry.get())
         w = float(w_entry.get())

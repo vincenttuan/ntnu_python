@@ -19,9 +19,35 @@ def tree_clear():
 # 查詢
 def search():
     tree_clear()
-    messagebox.showinfo('查詢作業', '查詢完成')
+    # messagebox.showinfo('查詢作業', '查詢完成')
     # 重這裡開始寫
+    url = 'https://www.twse.com.tw/exchangeReport/BWIBBU_d?response=csv&date={0}&selectType=ALL'
+    # 沒給日期就用今天
+    if date.get() == '':
+        url = url.format(datetime.date.today())
+    else:
+        url = url.format(date.get())
 
+    resp = requests.get(url)
+    if resp.status_code == 200:
+        text = resp.text
+        list = text.split('\n')
+        # print(text)
+        i = 2  # 前兩項是沒用的資料
+        while i < len(list):
+            # 拔除雙引號
+            list[i] = list[i].replace('"', '')
+            data = list[i].split(',')
+            if(len(data) == 8):
+                try:
+                    if(float(data[2]) > float(yield_rate.get()) and
+                            float(data[4]) < float(per.get()) and
+                            float(data[5]) < float(pbr.get())):
+                        print(list[i])
+                        tree.insert('', '0', values=data)
+                except:
+                    pass
+            i = i + 1
 
 def quit():
     win.quit()

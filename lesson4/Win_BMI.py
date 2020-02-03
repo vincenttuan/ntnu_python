@@ -2,8 +2,22 @@ import tkinter
 from tkinter import messagebox
 
 def calc():
-    bmi = 0.0;
-    messagebox.showinfo("你的 BMI 值 : ", str(bmi))
+    h = 0
+    w = 0
+    bmi = 0.0
+    try:
+        h = float(h_entry.get())
+        w = float(w_entry.get())
+        bmi = w / (h/100)**2
+    except Exception as e:
+        messagebox.showinfo("錯誤", "資料輸入錯誤:" + str(e))
+        return
+    messagebox.showinfo("你的 BMI 值 : ", str("{0:.2f}".format(bmi)))
+
+
+def clear():
+    h_entry.delete(0, tkinter.END)
+    w_entry.delete(0, tkinter.END)
 
 
 win = tkinter.Tk()
@@ -23,7 +37,7 @@ button1 = tkinter.Button(win, text="計算 BMI", command=calc)
 button1.config(font=('Arial', 30))
 button1.pack(side=tkinter.LEFT)
 
-button2 = tkinter.Button(win, text="清空")
+button2 = tkinter.Button(win, text="清空", command=clear)
 button2.config(font=('Arial', 30))
 button2.pack(side=tkinter.RIGHT)
 

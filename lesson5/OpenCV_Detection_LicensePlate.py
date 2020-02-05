@@ -21,7 +21,7 @@ for (x, y, w, h) in cars:
     roi_gray = gray[y:y+h, x:x+w]
     roi_color = img[y:y+h, x:x+w]
 
-cv2.imshow('LicensePlate?', img)
+cv2.imshow('LicensePlate', img)
 # 儲存檔案
 # cv2.imwrite("./image_out/LicensePlate.jpg",img)
 # 任意鍵離開(若設定為 0 就表示持續等待至使用者按下按鍵為止)

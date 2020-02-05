@@ -21,7 +21,7 @@ while True:
     # 定義灰度圖像
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    # 畫出每一個臉的範圍
+    # 監測人臉
     faces = face_cascade.detectMultiScale(
         gray,  # 待檢測圖片，一般為灰度圖像加快檢測速度
         scaleFactor=1.1,  # 檢測粒度 scaleFactor 。更大的粒度將會加快檢測的速度，但是會對檢測準確性產生影響。相反的，一個更小的粒度將會影響檢測的時間，但是會增加準確性。
@@ -35,7 +35,14 @@ while True:
         # CASCADE_DO_ROUGH_SEARCH=8 粗略的檢測
     )
 
+    # 找到的人臉個數
     print("Found {0} faces!".format(len(faces)))
+
+    # 在臉部周圍畫矩形框
+    for (x, y, w, h) in faces:
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 5)  # 注意：(0, 255, 0) 是 BGR
+        # 繪文字
+        cv2.putText(frame, 'Vincent', (x, y - 7), 16, 1.2, (0, 255, 0), 2)
 
     # 將 frame 顯示
     cv2.imshow('Video', frame)

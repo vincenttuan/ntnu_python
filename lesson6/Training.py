@@ -84,7 +84,7 @@ if __name__ == '__main__':
         # 正樣本數量計數器增一
         pos_count += 1
 
-    # 尋訪 config. NEGATIVE_DIR 指定目錄中所有 *.pgm 檔案
+    # 尋訪 config.NEGATIVE_DIR 指定目錄中所有 *.pgm 檔案
     for filename in walk_files(Config.NEGATIVE_DIR, '*.pgm'):
         # 將 filename 圖檔讀出，灰階化、縮放後的圖片，加入 faces 陣列中
         faces.append(prepare_image(filename))

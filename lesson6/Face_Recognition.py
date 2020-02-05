@@ -6,7 +6,6 @@ from lesson6 import Config
 haar_faces = cv2.CascadeClassifier(Config.HAAR_FACES)
 
 if __name__ == '__main__':
-
     # 取得攝像鏡頭位置
     cap = cv2.VideoCapture(0)
 
@@ -78,7 +77,6 @@ if __name__ == '__main__':
             # CASCADE_DO_ROUGH_SEARCH=8 粗略的檢測
         )
 
-
         # 7.判斷評估值 <= Config.POSITIVE_THRESHOLD
         if label[1] <= Config.POSITIVE_THRESHOLD:
             # 印出辨識成功
@@ -92,7 +90,7 @@ if __name__ == '__main__':
                 cv2.putText(frame, Config.MY_NAME, (x, y - 7), 2, 1.2, (0, 255, 0), 2)
 
             # 跳出循環偵測回圈
-            # break
+            break
         else:
             # 印出辨識失敗
             print('辨識失敗 opencv_faceid!')

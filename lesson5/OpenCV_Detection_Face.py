@@ -5,7 +5,7 @@ import cv2
 # 各種已訓練好的偵測器資源檔：
 # https://github.com/opencv/opencv/blob/master/data/haarcascades/
 # 人臉偵測器
-face_cascade = cv2.CascadeClassifier('./xml/haarcascade_frontalface_alt.xml')
+face_cascade = cv2.CascadeClassifier('./xml/haarcascade_frontalface_alt2.xml')
 
 # 設定攝像鏡頭
 cap = cv2.VideoCapture(0)

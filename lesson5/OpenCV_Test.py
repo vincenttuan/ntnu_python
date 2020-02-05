@@ -9,6 +9,10 @@ import cv2
 # 設定攝像鏡頭
 cap = cv2.VideoCapture(0)
 
+# 判斷攝像鏡頭是否啟動 ?
+if not cap.isOpened():
+    cap.open()
+
 # 設定捕捉區域
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
@@ -25,7 +29,9 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# 釋放資源與關閉視窗
+# 釋放攝影機
 cap.release()
+
+# 關閉所有 OpenCV 視窗
 cv2.destroyAllWindows()
 

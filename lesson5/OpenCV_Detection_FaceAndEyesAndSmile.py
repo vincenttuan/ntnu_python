@@ -6,6 +6,8 @@ import cv2
 face_cascade = cv2.CascadeClassifier('./xml/haarcascade_frontalface_alt2.xml')
 # 眼睛偵測器
 eye_cascade = cv2.CascadeClassifier('./xml/haarcascade_eye_tree_eyeglasses.xml')
+# 微笑偵測器
+smile_cascade = cv2.CascadeClassifier('./xml/haarcascade_smile.xml')
 
 # 設定攝像鏡頭
 cap = cv2.VideoCapture(0)
@@ -48,11 +50,25 @@ while True:
         eyes = eye_cascade.detectMultiScale(roi_gray)
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
+
+        # 微笑偵測辨識程序
+        # -----------------------------------------------------------------------
+        smile = smile_cascade.detectMultiScale(
+            roi_gray,
+            scaleFactor=1.1,
+            minNeighbors=100,
+            minSize=(30, 30),
+            flags=cv2.CASCADE_SCALE_IMAGE
+        )
+
+        # 框出嘴巴，並打上 Smile 標籤
+        for (sx, sy, sw, sh) in smile:
+            cv2.rectangle(roi_color, (sx, sy), (sx + sw, sy + sh), (255, 0, 0), 2)
+            cv2.putText(frame, 'Smile', (x + sx, y + sy - 7), 3, 1, (0, 255, 0), 1)
         # -----------------------------------------------------------------------
 
-
     # 將 frame 顯示
-    cv2.imshow('Detect face and eyes', frame)
+    cv2.imshow('Detect face, eyes and smile', frame)
 
     # 按下 q 離開迴圈
     if cv2.waitKey(1) & 0xFF == ord('q'):

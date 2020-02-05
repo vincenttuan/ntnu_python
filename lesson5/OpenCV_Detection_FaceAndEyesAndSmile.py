@@ -48,8 +48,11 @@ while True:
         roi_color = frame[y:y + h, x:x + w]
         # 進行眼睛辨識
         eyes = eye_cascade.detectMultiScale(roi_gray)
+        # 取得 dy (眼睛的 y 值)
+        dy = 0
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
+            dy = ey + eh
 
         # 微笑偵測辨識程序
         # -----------------------------------------------------------------------
@@ -63,8 +66,9 @@ while True:
 
         # 框出嘴巴，並打上 Smile 標籤
         for (sx, sy, sw, sh) in smile:
-            cv2.rectangle(roi_color, (sx, sy), (sx + sw, sy + sh), (255, 0, 0), 2)
-            cv2.putText(frame, 'Smile', (x + sx, y + sy - 7), 3, 1, (0, 255, 0), 1)
+            if dy > 0 and sy > dy:
+                cv2.rectangle(roi_color, (sx, sy), (sx + sw, sy + sh), (255, 0, 0), 2)
+                cv2.putText(frame, 'Smile', (x + sx, y + sy - 7), 3, 1, (0, 255, 0), 1)
         # -----------------------------------------------------------------------
 
     # 將 frame 顯示

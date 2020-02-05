@@ -1,8 +1,7 @@
 # -*- coding=utf-8 -*-
 import cv2
 
-carPath = "./xml2/tw.xml"
-carCascade = cv2.CascadeClassifier(carPath)
+carCascade = cv2.CascadeClassifier("./xml2/tw.xml")
 
 img = cv2.imread("./image/car3.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -18,8 +17,8 @@ cars = carCascade.detectMultiScale(
 # 畫出車牌
 for (x, y, w, h) in cars:
     cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 255), 2)
-    roi_gray = gray[y:y+h, x:x+w]
-    roi_color = img[y:y+h, x:x+w]
+    #roi_gray = gray[y:y+h, x:x+w]
+    #roi_color = img[y:y+h, x:x+w]
 
 cv2.imshow('LicensePlate', img)
 # 儲存檔案

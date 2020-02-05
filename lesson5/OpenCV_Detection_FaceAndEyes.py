@@ -50,6 +50,7 @@ while True:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
         # -----------------------------------------------------------------------
 
+
     # 將 frame 顯示
     cv2.imshow('Detect Face and eyes', frame)
 
